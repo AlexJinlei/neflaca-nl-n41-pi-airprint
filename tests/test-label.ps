@@ -1,0 +1,25 @@
+%!PS-Adobe-3.0
+%%Title: NL-N41 203 dpi 4x6 verification
+%%Pages: 1
+%%BoundingBox: 0 0 288 432
+%%EndComments
+<< /PageSize [288 432] >> setpagedevice
+/Courier-Bold findfont 14 scalefont setfont
+18 405 moveto (NL-N41 ARM64 TEST) show
+/Courier findfont 9 scalefont setfont
+18 387 moveto (4 x 6 inch / 203 dpi) show
+18 371 moveto (TOP / no mirror / no negative) show
+0 setgray 1 setlinewidth
+18 18 moveto 270 18 lineto 270 350 lineto 18 350 lineto closepath stroke
+18 330 moveto 118 330 lineto stroke
+18 319 moveto (100 pt = 35.28 mm ruler) show
+18 278 180 28 rectfill
+18 266 moveto (Solid black: inspect white dots) show
+% Alternating narrow and wide bars: an alignment pattern, not a shipping barcode.
+0 1 39 { /i exch def /x 25 i 5 mul add def x 166 2 65 rectfill } for
+18 151 moveto (Bars: inspect gaps and edges) show
+18 130 moveto (Copies: print 2, count labels) show
+18 110 moveto (LEFT) show
+235 50 moveto (RIGHT) show
+showpage
+%%EOF

@@ -1,0 +1,28 @@
+%!PS-Adobe-3.0
+%%Title: NL-N41 Grayscale Test
+%%Pages: 1
+%%BoundingBox: 0 0 288 432
+<< /PageSize [288 432] /ImagingBBox null >> setpagedevice
+/Helvetica-Bold findfont 15 scalefont setfont
+0 setgray 18 408 moveto (NL-N41 GRAYSCALE TEST) show
+/Helvetica findfont 9 scalefont setfont
+18 390 moveto (4 x 6 in / 203 dpi / one copy) show
+18 369 moveto (Continuous gradient: black to white) show
+0 1 255 { /i exch def i 255 div setgray 18 i add 330 1 30 rectfill } for
+0 setgray 18 311 moveto (16 gray levels: black to white) show
+0 1 15 { /i exch def i 15 div setgray 18 i 16 mul add 270 16 30 rectfill } for
+0 setgray 18 251 moveto (Constant patches: 25%, 50%, 75% gray) show
+0.25 setgray 18 174 76 62 rectfill
+0.5 setgray 108 174 76 62 rectfill
+0.75 setgray 198 174 70 62 rectfill
+0 setgray 18 156 moveto (Sharp black edges and small text should remain clear.) show
+/Helvetica-Bold findfont 24 scalefont setfont
+18 112 moveto (BLACK TEXT) show
+0 setgray 18 67 112 24 rectfill
+1 setgray /Helvetica-Bold findfont 12 scalefont setfont
+22 74 moveto (WHITE TEXT) show
+0 setgray /Helvetica findfont 9 scalefont setfont
+18 40 moveto (Use Dither=FloydSteinberg or Dither=Ordered.) show
+18 25 moveto (This pattern is not a scannable barcode.) show
+showpage
+%%EOF

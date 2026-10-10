@@ -1,0 +1,25 @@
+{
+  "file": "raster-nln41",
+  "elf_class": 64,
+  "machine": "AArch64 (183)",
+  "interpreter": "/lib/ld-linux-aarch64.so.1",
+  "needed": [
+    "libcups.so.2",
+    "libm.so.6",
+    "libc.so.6"
+  ],
+  "symbol_versions": [
+    {
+      "library": "libm.so.6",
+      "version": "GLIBC_2.17"
+    },
+    {
+      "library": "libc.so.6",
+      "version": "GLIBC_2.17"
+    },
+    {
+      "library": "libc.so.6",
+      "version": "GLIBC_2.34"
+    }
+  ]
+}

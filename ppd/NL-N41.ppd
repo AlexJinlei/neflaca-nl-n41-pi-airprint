@@ -1,0 +1,269 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "0.6.2"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "NLN41.PPD"
+*Manufacturer: "NefLaca"
+*Product: "(NL-N41)"
+*ModelName: "NL-N41"
+*ShortNickName: "NL-N41 TSPL"
+*NickName: "NefLaca NL-N41 independent TSPL driver"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 2.0
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 0 raster-nln41"
+*cupsFilter: "image/urf 0 raster-nln41"
+*cupsFilter: "image/pwg-raster 0 raster-nln41"
+*1284DeviceID: "MANUFACTURER:NefLaca;MODEL:NL-N41;COMMAND SET:TSPL;"
+*HWMargins: 0 0 0 0
+*MaxMediaWidth: "306.7087"
+*MaxMediaHeight: "850.3937"
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 141.7323 306.7087
+*ParamCustomPageSize Height: 2 points 70.8661 850.3937
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*RequiresPageRegion All: True
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: 4x6
+*PageSize 4x6/4 x 6 inch: "<</PageSize[288.0000 432.0000]/ImagingBBox null>>setpagedevice"
+*PageSize 101x152mm.Fullbleed/101 x 152 mm: "<</PageSize[286.2992 430.8661]/ImagingBBox null>>setpagedevice"
+*PageSize 32x57mmRotated.Fullbleed/57 x 32 mm: "<</PageSize[161.5748 90.7087]/ImagingBBox null>>setpagedevice"
+*PageSize 25x76mmRotated.Fullbleed/76 x 25 mm: "<</PageSize[215.4331 70.8661]/ImagingBBox null>>setpagedevice"
+*PageSize 50x76mmRotated.Fullbleed/76 x 50 mm: "<</PageSize[215.4331 141.7323]/ImagingBBox null>>setpagedevice"
+*PageSize 50x101mm.Fullbleed/50 x 101 mm: "<</PageSize[141.7323 286.2992]/ImagingBBox null>>setpagedevice"
+*PageSize 104x159mm.Fullbleed/104 x 159 mm: "<</PageSize[294.8031 450.7087]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: 4x6
+*PageRegion 4x6/4 x 6 inch: "<</PageSize[288.0000 432.0000]/ImagingBBox null>>setpagedevice"
+*PageRegion 101x152mm.Fullbleed/101 x 152 mm: "<</PageSize[286.2992 430.8661]/ImagingBBox null>>setpagedevice"
+*PageRegion 32x57mmRotated.Fullbleed/57 x 32 mm: "<</PageSize[161.5748 90.7087]/ImagingBBox null>>setpagedevice"
+*PageRegion 25x76mmRotated.Fullbleed/76 x 25 mm: "<</PageSize[215.4331 70.8661]/ImagingBBox null>>setpagedevice"
+*PageRegion 50x76mmRotated.Fullbleed/76 x 50 mm: "<</PageSize[215.4331 141.7323]/ImagingBBox null>>setpagedevice"
+*PageRegion 50x101mm.Fullbleed/50 x 101 mm: "<</PageSize[141.7323 286.2992]/ImagingBBox null>>setpagedevice"
+*PageRegion 104x159mm.Fullbleed/104 x 159 mm: "<</PageSize[294.8031 450.7087]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: 4x6
+*ImageableArea 4x6/4 x 6 inch: "0 0 288.0000 432.0000"
+*ImageableArea 101x152mm.Fullbleed/101 x 152 mm: "0 0 286.2992 430.8661"
+*ImageableArea 32x57mmRotated.Fullbleed/57 x 32 mm: "0 0 161.5748 90.7087"
+*ImageableArea 25x76mmRotated.Fullbleed/76 x 25 mm: "0 0 215.4331 70.8661"
+*ImageableArea 50x76mmRotated.Fullbleed/76 x 50 mm: "0 0 215.4331 141.7323"
+*ImageableArea 50x101mm.Fullbleed/50 x 101 mm: "0 0 141.7323 286.2992"
+*ImageableArea 104x159mm.Fullbleed/104 x 159 mm: "0 0 294.8031 450.7087"
+*DefaultPaperDimension: 4x6
+*PaperDimension 4x6/4 x 6 inch: "288.0000 432.0000"
+*PaperDimension 101x152mm.Fullbleed/101 x 152 mm: "286.2992 430.8661"
+*PaperDimension 32x57mmRotated.Fullbleed/57 x 32 mm: "161.5748 90.7087"
+*PaperDimension 25x76mmRotated.Fullbleed/76 x 25 mm: "215.4331 70.8661"
+*PaperDimension 50x76mmRotated.Fullbleed/76 x 50 mm: "215.4331 141.7323"
+*PaperDimension 50x101mm.Fullbleed/50 x 101 mm: "141.7323 286.2992"
+*PaperDimension 104x159mm.Fullbleed/104 x 159 mm: "294.8031 450.7087"
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 20 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsColorSpace 18/cupsColorOrder 0>>setpagedevice"
+*CloseUI: *Resolution
+*OpenGroup: PrinterOptions/Printer Options
+*OpenUI *nln41-mode/Print Mode: PickOne
+*OrderDependency: 30 AnySetup *nln41-mode
+*Defaultnln41-mode: DriverDefault
+*nln41-mode DriverDefault/Use driver default: ""
+*nln41-mode BlackWhite/Black & White: ""
+*nln41-mode Gray/Gray: ""
+*CloseUI: *nln41-mode
+*OpenUI *Dither/Grayscale rendering: PickOne
+*OrderDependency: 30 AnySetup *Dither
+*DefaultDither: FloydSteinberg
+*Dither Threshold/Threshold (text and barcodes): ""
+*Dither Ordered/Ordered Bayer 8x8: ""
+*Dither FloydSteinberg/Floyd-Steinberg (photos and gradients): ""
+*CloseUI: *Dither
+*OpenUI *PrintSpeed/Speed: PickOne
+*OrderDependency: 30 AnySetup *PrintSpeed
+*DefaultPrintSpeed: None
+*PrintSpeed None/Keep printer setting: ""
+*PrintSpeed 2/2 inch per second: ""
+*PrintSpeed 3/3 inch per second: ""
+*PrintSpeed 4/4 inch per second: ""
+*PrintSpeed 5/5 inch per second: ""
+*CloseUI: *PrintSpeed
+*OpenUI *PrintDarkness/Darkness: PickOne
+*OrderDependency: 30 AnySetup *PrintDarkness
+*DefaultPrintDarkness: None
+*PrintDarkness None/Keep printer setting: ""
+*PrintDarkness 0/0: ""
+*PrintDarkness 1/1: ""
+*PrintDarkness 2/2: ""
+*PrintDarkness 3/3: ""
+*PrintDarkness 4/4: ""
+*PrintDarkness 5/5: ""
+*PrintDarkness 6/6: ""
+*PrintDarkness 7/7: ""
+*PrintDarkness 8/8: ""
+*PrintDarkness 9/9: ""
+*PrintDarkness 10/10: ""
+*PrintDarkness 11/11: ""
+*PrintDarkness 12/12: ""
+*PrintDarkness 13/13: ""
+*PrintDarkness 14/14: ""
+*PrintDarkness 15/15: ""
+*CloseUI: *PrintDarkness
+*OpenUI *PaperType/Media sensing: PickOne
+*OrderDependency: 30 AnySetup *PaperType
+*DefaultPaperType: 1
+*PaperType None/Keep printer setting: ""
+*PaperType 1/Gap labels: ""
+*PaperType 2/Black mark labels: ""
+*PaperType 3/Continuous: ""
+*CloseUI: *PaperType
+*OpenUI *GapLength/Gap or black mark length mm: PickOne
+*OrderDependency: 30 AnySetup *GapLength
+*DefaultGapLength: 2
+*GapLength 0/0: ""
+*GapLength 1/1: ""
+*GapLength 2/2: ""
+*GapLength 3/3: ""
+*GapLength 4/4: ""
+*GapLength 5/5: ""
+*GapLength 6/6: ""
+*GapLength 7/7: ""
+*GapLength 8/8: ""
+*GapLength 9/9: ""
+*GapLength 10/10: ""
+*CloseUI: *GapLength
+*OpenUI *Orientation/Additional bitmap rotation clockwise: PickOne
+*OrderDependency: 30 AnySetup *Orientation
+*DefaultOrientation: 0
+*Orientation 0/0 degrees: ""
+*Orientation 1/90 degrees: ""
+*Orientation 2/180 degrees: ""
+*Orientation 3/270 degrees: ""
+*CloseUI: *Orientation
+*OpenUI *ShiftMove/Horizontal TSPL shift mm: PickOne
+*OrderDependency: 30 AnySetup *ShiftMove
+*DefaultShiftMove: 0
+*ShiftMove -12/-12: ""
+*ShiftMove -11/-11: ""
+*ShiftMove -10/-10: ""
+*ShiftMove -9/-9: ""
+*ShiftMove -8/-8: ""
+*ShiftMove -7/-7: ""
+*ShiftMove -6/-6: ""
+*ShiftMove -5/-5: ""
+*ShiftMove -4/-4: ""
+*ShiftMove -3/-3: ""
+*ShiftMove -2/-2: ""
+*ShiftMove -1/-1: ""
+*ShiftMove 0/0: ""
+*ShiftMove 1/1: ""
+*ShiftMove 2/2: ""
+*ShiftMove 3/3: ""
+*ShiftMove 4/4: ""
+*ShiftMove 5/5: ""
+*ShiftMove 6/6: ""
+*ShiftMove 7/7: ""
+*ShiftMove 8/8: ""
+*ShiftMove 9/9: ""
+*ShiftMove 10/10: ""
+*ShiftMove 11/11: ""
+*ShiftMove 12/12: ""
+*CloseUI: *ShiftMove
+*OpenUI *FowardOffset/Tear stop offset mm: PickOne
+*OrderDependency: 30 AnySetup *FowardOffset
+*DefaultFowardOffset: 0
+*FowardOffset -30/-30: ""
+*FowardOffset -29/-29: ""
+*FowardOffset -28/-28: ""
+*FowardOffset -27/-27: ""
+*FowardOffset -26/-26: ""
+*FowardOffset -25/-25: ""
+*FowardOffset -24/-24: ""
+*FowardOffset -23/-23: ""
+*FowardOffset -22/-22: ""
+*FowardOffset -21/-21: ""
+*FowardOffset -20/-20: ""
+*FowardOffset -19/-19: ""
+*FowardOffset -18/-18: ""
+*FowardOffset -17/-17: ""
+*FowardOffset -16/-16: ""
+*FowardOffset -15/-15: ""
+*FowardOffset -14/-14: ""
+*FowardOffset -13/-13: ""
+*FowardOffset -12/-12: ""
+*FowardOffset -11/-11: ""
+*FowardOffset -10/-10: ""
+*FowardOffset -9/-9: ""
+*FowardOffset -8/-8: ""
+*FowardOffset -7/-7: ""
+*FowardOffset -6/-6: ""
+*FowardOffset -5/-5: ""
+*FowardOffset -4/-4: ""
+*FowardOffset -3/-3: ""
+*FowardOffset -2/-2: ""
+*FowardOffset -1/-1: ""
+*FowardOffset 0/0: ""
+*FowardOffset 1/1: ""
+*FowardOffset 2/2: ""
+*FowardOffset 3/3: ""
+*FowardOffset 4/4: ""
+*FowardOffset 5/5: ""
+*FowardOffset 6/6: ""
+*FowardOffset 7/7: ""
+*FowardOffset 8/8: ""
+*FowardOffset 9/9: ""
+*FowardOffset 10/10: ""
+*FowardOffset 11/11: ""
+*FowardOffset 12/12: ""
+*FowardOffset 13/13: ""
+*FowardOffset 14/14: ""
+*FowardOffset 15/15: ""
+*FowardOffset 16/16: ""
+*FowardOffset 17/17: ""
+*FowardOffset 18/18: ""
+*FowardOffset 19/19: ""
+*FowardOffset 20/20: ""
+*FowardOffset 21/21: ""
+*FowardOffset 22/22: ""
+*FowardOffset 23/23: ""
+*FowardOffset 24/24: ""
+*FowardOffset 25/25: ""
+*FowardOffset 26/26: ""
+*FowardOffset 27/27: ""
+*FowardOffset 28/28: ""
+*FowardOffset 29/29: ""
+*FowardOffset 30/30: ""
+*CloseUI: *FowardOffset
+*OpenUI *PostAction/Tear mode: PickOne
+*OrderDependency: 30 AnySetup *PostAction
+*DefaultPostAction: 1
+*PostAction None/Off: ""
+*PostAction 1/On: ""
+*CloseUI: *PostAction
+*OpenUI *MirrorImage/Mirror horizontally: Boolean
+*OrderDependency: 30 AnySetup *MirrorImage
+*DefaultMirrorImage: False
+*MirrorImage False/No: ""
+*MirrorImage True/Yes: ""
+*CloseUI: *MirrorImage
+*OpenUI *NegativeImage/Invert image: Boolean
+*OrderDependency: 30 AnySetup *NegativeImage
+*DefaultNegativeImage: False
+*NegativeImage False/No: ""
+*NegativeImage True/Yes: ""
+*CloseUI: *NegativeImage
+*CloseGroup: PrinterOptions
+*DefaultFont: Courier
+*Font Courier: Standard "(001.007)" Standard ROM

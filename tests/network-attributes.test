@@ -1,0 +1,15 @@
+{
+ NAME "NL-N41 network raster capabilities"
+ OPERATION Get-Printer-Attributes
+ GROUP operation-attributes-tag
+ ATTR charset attributes-charset utf-8
+ ATTR language attributes-natural-language en
+ ATTR uri printer-uri $uri
+ ATTR keyword requested-attributes all
+ STATUS successful-ok
+ EXPECT document-format-supported OF-TYPE mimeMediaType WITH-VALUE image/urf
+ EXPECT document-format-supported OF-TYPE mimeMediaType WITH-VALUE image/pwg-raster
+ EXPECT document-format-supported OF-TYPE mimeMediaType WITH-VALUE application/pdf
+ EXPECT urf-supported OF-TYPE keyword
+ EXPECT printer-resolution-supported OF-TYPE resolution WITH-VALUE 203dpi
+}

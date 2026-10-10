@@ -1,0 +1,178 @@
+{
+  "padding_tests": [
+    {
+      "id": 0,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "black",
+      "options": "",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312c00075a5f00075a5f00075a5f00070d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\x00\\x07Z_\\x00\\x07Z_\\x00\\x07Z_\\x00\\x07\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 1,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "white",
+      "options": "",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312cffff5a5fffff5a5fffff5a5fffff0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\xff\\xffZ_\\xff\\xffZ_\\xff\\xffZ_\\xff\\xff\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 2,
+      "cs": 0,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312ce1c75a5f0e1f5a5f70e75a5f870f0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\xe1\\xc7Z_\\x0e\\x1fZ_p\\xe7Z_\\x87\\x0f\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 3,
+      "cs": 3,
+      "bits": 8,
+      "pattern": "pattern",
+      "options": "",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312c1e3ff1e78f1f78f7c78f3c7fe3c70d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\x1e?\\xf1\\xe7\\x8f\\x1fx\\xf7\\xc7\\x8f<\\x7f\\xe3\\xc7\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 4,
+      "cs": 0,
+      "bits": 8,
+      "pattern": "pattern",
+      "options": "",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312ce1c70e1f70e7870f3877c3871c3f0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\xe1\\xc7\\x0e\\x1fp\\xe7\\x87\\x0f8w\\xc3\\x87\\x1c?\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 5,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "PrintSpeed=3 PrintDarkness=10 PaperType=1 ShiftMove=2 FowardOffset=-3",
+      "copies": 2,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a4741502032206d6d2c2030206d6d0d0a4f4646534554202d33206d6d0d0a53484946542031350d0a535045454420330d0a44454e534954592031300d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312c1e3f5a5ff1e75a5f8f1f5a5f78f70d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nGAP 2 mm, 0 mm\\r\\nOFFSET -3 mm\\r\\nSHIFT 15\\r\\nSPEED 3\\r\\nDENSITY 10\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\x1e?Z_\\xf1\\xe7Z_\\x8f\\x1fZ_x\\xf7\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 6,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "MirrorImage=True",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312ce3c7d2d73c7fd2d7c78fd2d778f70d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\xe3\\xc7\\xd2\\xd7<\\x7f\\xd2\\xd7\\xc7\\x8f\\xd2\\xd7x\\xf7\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 7,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "NegativeImage=True",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312ce1c7a5a70e1fa5a770e7a5a7870f0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\xe1\\xc7\\xa5\\xa7\\x0e\\x1f\\xa5\\xa7p\\xe7\\xa5\\xa7\\x87\\x0f\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 8,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "Orientation=2",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c342c372c312c1e3ffffff1e7ffff8f1fffff78f7ffffc78fffff3c7fffffe3c7ffff0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,4,7,1,\\x1e?\\xff\\xff\\xf1\\xe7\\xff\\xff\\x8f\\x1f\\xff\\xffx\\xf7\\xff\\xff\\xc7\\x8f\\xff\\xff<\\x7f\\xff\\xff\\xe3\\xc7\\xff\\xff\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 9,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "Orientation=1",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c312c31332c312cadb5d5575b6babadb5d5575b6b0d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,1,13,1,\\xad\\xb5\\xd5W[k\\xab\\xad\\xb5\\xd5W[k\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 10,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "PaperType=2",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a424c494e452032206d6d2c2030206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312c1e3f5a5ff1e75a5f8f1f5a5f78f70d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nBLINE 2 mm, 0 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\x1e?Z_\\xf1\\xe7Z_\\x8f\\x1fZ_x\\xf7\\r\\nPRINT 1,1\\r\\n'"
+    },
+    {
+      "id": 11,
+      "cs": 3,
+      "bits": 1,
+      "pattern": "pattern",
+      "options": "PaperType=3",
+      "copies": 1,
+      "returncode": 0,
+      "output_hex": "0d0a53495a45203130312e32206d6d2c203135322e34206d6d0d0a4741502030206d6d2c2030206d6d0d0a5345542054454152204f4e0d0a53455420435554544552204f46460d0a534554205045454c204f46460d0a434c530d0a4249544d415020302c302c322c372c312c1e3f5a5ff1e75a5f8f1f5a5f78f70d0a5052494e5420312c310d0a",
+      "output_repr": "b'\\r\\nSIZE 101.2 mm, 152.4 mm\\r\\nGAP 0 mm, 0 mm\\r\\nSET TEAR ON\\r\\nSET CUTTER OFF\\r\\nSET PEEL OFF\\r\\nCLS\\r\\nBITMAP 0,0,2,7,1,\\x1e?Z_\\xf1\\xe7Z_\\x8f\\x1fZ_x\\xf7\\r\\nPRINT 1,1\\r\\n'"
+    }
+  ],
+  "unpadded_baseline": [
+    {
+      "bits": 1,
+      "space": 3,
+      "pattern": "black",
+      "returncode": 0,
+      "width_bytes": 2,
+      "height": 9,
+      "mode": 1,
+      "payload_hex": "000700070007000700070007000700070007"
+    },
+    {
+      "bits": 1,
+      "space": 3,
+      "pattern": "white",
+      "returncode": 0,
+      "width_bytes": 2,
+      "height": 9,
+      "mode": 1,
+      "payload_hex": "ffffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "bits": 1,
+      "space": 3,
+      "pattern": "pattern",
+      "returncode": 0,
+      "width_bytes": 2,
+      "height": 9,
+      "mode": 1,
+      "payload_hex": "1e3ff1e78f1f78f7c78f3c7fe3c71e3ff1e7"
+    },
+    {
+      "bits": 8,
+      "space": 3,
+      "pattern": "pattern",
+      "returncode": 0,
+      "width_bytes": 2,
+      "height": 9,
+      "mode": 1,
+      "payload_hex": "1e3ff1e78f1f78f7c78f3c7fe3c71e3ff1e7"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+NefLaca NL-N41 Pi AirPrint v0.6.2
+Inherited filter evidence: 584 v0.6.0 native filter invocations passed.
+Filter source and ARM64 binary unchanged from v0.6.1.
+Inherited hardware evidence: user-reported v0.6.1 empty-project installation,
+capability PASS, automatic Mac discovery/addition, generated AirPrint client
+PPD, and successful grayscale/barcode output. Earlier iPhone output worked.
+
+Local v0.6.2 checks:
+PASS: 11 simulated Pi installation/rollback tests.
+PASS: both source PPDs (existing 4x6 naming warning only).
+PASS: .run help/extraction, source/payload/ZIP manifests and archive integrity.
+PASS: ELF64 AArch64 identity; preserved stripped binary hash.
+PASS: document links, normalized archive metadata and private-token audit.
+No physical v0.6.2, Windows/Linux client or live rollback test is claimed.
+No new native filter or sanitizer run is claimed for this packaging release.
+No Mac installer or custom normal-client mode menu is distributed.
